@@ -15,8 +15,6 @@ function generateRandomImages(){
 
     let imgArr = [images[Math.floor(Math.random() * images.length)]]
 
-    console.log(imgArr);
-
     let img = document.createElement('img');
     img.classList.add('w-[8em]', 'h-[8em]', 'absolute');
 
@@ -30,4 +28,3 @@ function generateRandomImages(){
 }
 
 btn.addEventListener('click', generateRandomImages);
-console.log('Clicked');
