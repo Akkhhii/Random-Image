@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Images</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body class="overflow-hidden">
+    <div class="wrapper w-full h-screen flex flex-col justify-center items-center">
+        <button
+            class="bg-teal-400 text-white w-[6em] h-[3em] font-semibold cursor-pointer rounded-md active:scale-[0.9] transition-all 1s ease-in z-99"
+            id="btn">Click</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
